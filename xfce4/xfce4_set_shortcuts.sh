@@ -42,3 +42,5 @@ xfconf-query -c xfce4-keyboard-shortcuts -n -t 'string' -p '/xfwm4/custom/<Alt>K
 USER=$(whoami)
 xfconf-query -c xfce4-keyboard-shortcuts -n -t 'string' -p '/commands/custom/<Primary><Alt>t' -s "/home/$USER/Scripts/terminal.sh"
 
+echo "Need to install xdotool"
+sudo apt install xdotool -y
