@@ -1,2 +1,2 @@
 #!/bin/bash
-redshift -x && redshift -O 4500
+sleep 5 && redshift -x && redshift -O 4500
